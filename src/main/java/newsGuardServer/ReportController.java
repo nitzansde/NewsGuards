@@ -27,7 +27,7 @@ import java.util.NoSuchElementException;
 public class ReportController {
     Engine engine;
 
-    private final String uploadDir = "images/"; // GON: Directory to save uploaded images
+    private final String uploadDir = "C:/Users/User/IdeaProjects/NewsGuards/images/"; // GON: Directory to save uploaded images
     @Autowired
     public  ReportController(Engine engine)
     {
